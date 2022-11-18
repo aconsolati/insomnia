@@ -1,0 +1,51 @@
+_id: req_b31e83ee0c344c2aaaf9b36e7bcd1381
+type: Request
+parentId: wrk_18de72336c0a4c6ea40d5e477e0c0f41
+modified: 1668767411551
+created: 1668764535059
+url: https://login.microsoftonline.com/46564107-db54-4682-b112-3773ede4bfcc/oauth2/v2.0/token
+name: Oauth v2.0
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_a910eca385dc4efcba9b6a1085a0d551
+      name: grant_type
+      value: password
+      description: ""
+    - id: pair_2f5cbd7fe5cb45558a63f6574d9e32f5
+      name: username
+      value: SUP@covetrusgss.onmicrosoft.com
+      description: ""
+    - id: pair_b88e4351cac74c12a082471d54e1f2fd
+      name: password
+      value: eoByYwTPeV/z+x9ySQoe_PDi7=SaDb93
+      description: ""
+    - id: pair_ebbc22e8d10c4dbba926302382b675d7
+      name: client_id
+      value: a02e409a-999c-4cd6-a13b-68e9eb93f898
+      description: ""
+    - id: pair_199db128e47142568611a35fb0a6f491
+      name: client_secret
+      value: +mf/dVg_hqh8bgUtI4[WjlVAh3UhVIL6
+      description: ""
+    - id: pair_ce65cbf9f709409b81f66a142f626560
+      name: scope
+      value: api://a02e409a-999c-4cd6-a13b-68e9eb93f898/user_impersonation
+      description: ""
+      disabled: false
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_38dc87c6c9aa49bca2ddf895a9d5176c
+authentication: {}
+metaSortKey: -1667902074478
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

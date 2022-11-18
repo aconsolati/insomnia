@@ -1,0 +1,39 @@
+_id: req_f382e8d77b8144859dd20da09acd1410
+type: Request
+parentId: wrk_18de72336c0a4c6ea40d5e477e0c0f41
+modified: 1668767415624
+created: 1667991884005
+url: https://ascenddev.cvet.app/baseapi/odata/Consultations('10000050')/ChargeProcedureDto?procedureID=116001169
+name: Procedure-oauth
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_4a762a5e9482401fbd3bae129e7fdf28
+    name: Alias
+    value: UNITTEST
+    description: ""
+  - id: pair_042e1a020c934f8a97e8578f1569cf70
+    name: Clinic-Code
+    value: "1"
+    description: ""
+authentication:
+  type: oauth2
+  grantType: password
+  accessTokenUrl: https://login.microsoftonline.com/46564107-db54-4682-b112-3773ede4bfcc/oauth2/v2.0/token
+  clientId: a02e409a-999c-4cd6-a13b-68e9eb93f898
+  clientSecret: +mf/dVg_hqh8bgUtI4[WjlVAh3UhVIL6
+  username: LOW@covetrusgss.onmicrosoft.com
+  password: o]nv:.]vPK22iGoF1Xm0q@raC4QhjmMW
+  credentialsInBody: "true"
+  audience: ""
+  scope: api://a02e409a-999c-4cd6-a13b-68e9eb93f898/user_impersonation
+metaSortKey: -1667902074578
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
